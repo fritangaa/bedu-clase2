@@ -12,7 +12,7 @@
     font-size: 16px;
     vertical-align: middle;
     height: 100%;
-    line-height: 45px;
+    line-height: 25px;
 }
 
 .logo {
@@ -30,8 +30,14 @@
     font-weight: 500;
 }
 
-nav li {
+.navbar li {
     display: inline;
+    padding: 1ex;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: gray;
 }
 
 .actions {
@@ -43,6 +49,7 @@ nav li {
 
 .actions a {
   color: #67b54b;
+  padding-right: 1ex;
 }
 
 .actions button {
